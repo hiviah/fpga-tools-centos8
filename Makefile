@@ -42,7 +42,7 @@ nextpnr: tmp
 openocd: tmp
 	cd $(TMPDIR) && \
 	rm -rf openocd-code && \
-	git clone https://git.code.sf.net/p/openocd/code openocd-code && \
+	git clone --recursive https://git.code.sf.net/p/openocd/code openocd-code && \
 	cd openocd-code/ && \
 	./bootstrap && \
 	./configure && make && make install
