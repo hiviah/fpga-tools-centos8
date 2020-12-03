@@ -1,6 +1,6 @@
 #!/bin/bash
 dnf -y groupinstall "Development tools"
-dnf -y install boost-devel python3-devel python mc vim
+dnf -y install boost-devel python3-devel python3 mc vim
 dnf -y install git cmake clang
 dnf -y install dnf-plugins-core
 dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
