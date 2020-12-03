@@ -13,6 +13,7 @@ dnf -y install readline-devel bison flex gawk libffi-devel
 dnf -y install python3-cairo graphviz pygobject3-devel 
 dnf -y install qt5-devel
 dnf -y install eigen3-devel.noarch
+dnf -y install libusb-devel libftdi-devel
 pip3 install xdot
 
 make all
