@@ -14,10 +14,10 @@ are not packaged or prepared much for Centos 8.
 
 Then it will clone and build into `/usr/local`:
 
- * [https://github.com/YosysHQ/prjtrellis](prjtrellis)
- * [https://github.com/YosysHQ/yosys](yosys)
- * [https://github.com/YosysHQ/nextpnr](nextpnr) configured for Lattice ECP5
- * [https://git.code.sf.net/p/openocd/code](openocd) with libftdi support for programming ECP5
+ * [prjtrellis](https://github.com/YosysHQ/prjtrellis)
+ * [yosys](https://github.com/YosysHQ/yosys](yosys)
+ * [nextpnr configured for Lattice ECP5](https://github.com/YosysHQ/nextpnr]
+ * [openocd with libftdi support for programming ECP5](https://git.code.sf.net/p/openocd/code)
 
 ## Rebuilding new versions
 
