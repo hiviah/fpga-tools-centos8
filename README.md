@@ -16,7 +16,7 @@ Then it will clone and build into `/usr/local`:
 
  * [https://github.com/YosysHQ/prjtrellis](prjtrellis)
  * [https://github.com/YosysHQ/yosys](yosys)
- * [https://github.com/YosysHQ/nextpnr(nextpnr) configured for Lattice ECP5
+ * [https://github.com/YosysHQ/nextpnr](nextpnr) configured for Lattice ECP5
  * [https://git.code.sf.net/p/openocd/code](openocd) with libftdi support for programming ECP5
 
 ## Rebuilding new versions
